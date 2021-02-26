@@ -1,0 +1,206 @@
+/*
+    Theme name : Berlin Center
+    Theme coder : Abdulrahman Ahmed Saeed
+
+    1st color : #fdd739
+    2nd color : #991b1f;
+    
+*/
+body{
+    line-height: 1.8;
+
+}
+
+/* start upper bar */
+
+/* end upper bar */
+
+/* start navbar */
+.navbar-brand > img{
+    width: 6em;
+    height: auto;
+    margin: 10px
+}
+.navbar{
+    min-height: 96px;
+    background-color: white;
+   /* background-color: transparent;
+   background: transparent;
+   border-color: transparent; */
+}
+.navbar-light .navbar-nav .nav-link{
+    color:#000
+}
+.navbar-light .navbar-nav .nav-link.active {
+    color: #fdd739 !important;
+}
+
+.navbar-nav .nav-link{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    color: #08526d;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color: #ed1d24;
+}
+/* end navbar */
+/* about pages with cover*/
+.aboutUsDetails{
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    margin-top: 96px;
+    
+  }
+  
+  .aboutUsDetails img { 
+    width: 100%;
+    height: 100%;
+    filter: brightness(40%);
+    margin-bottom: 120px;
+    padding-bottom: 60px;
+  
+  }
+  .aboutUsDetails div{
+    position: absolute;
+    top: 8px;
+    padding: 5%;
+    color: #fff;
+    width: 70%;
+    font-size: 1.1em;
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+    letter-spacing: 2px;
+  
+  }
+  .aboutUsDetails div h1{
+    font-size:3em;
+    line-height: 0.5;
+    padding-top: 1em;
+    margin-bottom: 1em;
+  }
+  
+  @media (max-width:768px) {
+    .aboutUsDetails{
+      height: 70vh;
+      
+    }
+    .aboutUsDetails div{
+      width: 80%;
+  
+    }
+    .aboutUsDetails div h1{
+      font-size:2em;
+    }
+    .aboutUsDetails div p{
+      font-size:1em;
+    }
+  }
+  @media (max-width:540px) {
+    .aboutUsDetails div{
+      width: 100%;
+  
+    }
+    .aboutUsDetails div h1{
+      font-size:1.5em;
+    }
+    .aboutUsDetails div p{
+      font-size:0.8em;
+    }
+  }
+
+
+
+
+
+
+
+
+/*Ready to Visit?*/
+.readyToAcc{
+    background-color:  #fdd739;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    padding: 2em 0;
+
+}
+.readyToAcc:hover{
+    background-color: #991b1f;
+    color: #fff;
+}
+.readyToAcc p{
+    padding-bottom: 0;
+    font-weight: 400;
+}
+.readyToAcc h1{
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 0%;
+    margin-bottom: 0.8em;
+}
+@media (max-width:768px) {
+.readyToAcc{
+    font-size: 24px;
+
+}
+.readyToAcc p{
+    padding-bottom: 0;
+}
+.readyToAcc h1{
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 0%;
+}
+}
+@media (max-width:540px) {
+.readyToAcc{
+    font-size: 16px;
+    padding: 2em 0;
+
+}
+.readyToAcc p{
+    padding-bottom: 0;
+}
+.readyToAcc h1{
+    font-size: 24px;
+
+}
+}
+
+/*start end-footer*/
+
+.endFooter p{
+    font-weight: normal;
+    letter-spacing: 2px;
+    color: #666666;
+    margin: 0;
+    
+}
+.endFooter .row{
+    padding: 16px;
+}
+
+.endFooter ul{
+    margin: 0;
+}
+.endFooter .sam{
+    text-align: right;
+}
+.endFooter ul li{
+    display: inline;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.endFooter ul li a{
+    text-decoration: none;
+    color: #666666;
+
+}
+/*end end-footer*/

@@ -1,0 +1,128 @@
+.slide .carousel-inner{
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+    margin-top: 90px;
+}
+/* end slider */
+
+/* homeContainer*/
+.homeContainer{
+    position: relative;
+    z-index: -1;
+    top: -100px;
+    margin: 0 auto;
+    height: auto;
+    color: white;
+}
+.homeContainer .ContainerItem{
+    padding: 2em 2.5em 36px;
+    position: relative;
+    
+
+}
+
+.homeContainer .ContainerItem p{
+    color: rgb(196, 192, 192);
+    margin-bottom: 48px;
+    margin-top: 20px;
+
+    }
+.homeContainer .item1{
+background-color: rgb(32, 32, 32);
+
+}
+.homeContainer .item2{
+    background-color: rgb(20, 20, 20);
+
+}
+.homeContainer .item3{
+    background-color:rgb(12, 12, 12);
+
+}
+.homeContainer a{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #991b1f;
+    height: 48px;
+    color: #fff;
+    font-size: large;
+    padding-top: 8px;
+    width: 100%;
+    text-align: center;
+    visibility: hidden;
+}
+/* start homeContainer2 */
+.homeContainer2 .col-md {
+    padding: 0;
+
+}
+.homeContainer2 .details, .homeContainer2 .detailImg{
+    width: 50%;
+    height: 90%;
+    margin: 20px;
+}
+
+/* .homeContainer2 .detailImg img{
+    width: 100%;
+    height: 100%;
+} */
+.homeContainer2{
+    margin-bottom:40px;
+
+}
+
+.homeContainer2 .col-md.choose{
+    background-color: #08526d;
+    color: #fff;
+    padding: 3%;
+
+ }
+ .homeContainer2 .col-md h3{
+    font-size: 2em;
+    margin-bottom: 18px;
+ }
+ .homeContainer2 .col-md p{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    letter-spacing: 2px;
+
+ }
+.homeContainer2 img{
+width: 100%;
+height: 100%;
+}
+/* end homeContainer2 */
+
+@media screen and (max-width: 768px) {
+    .slide .carousel-inner{
+        height: auto;
+
+    }
+    .homeContainer{
+        position: static;
+
+    }
+    .homeContainer .ContainerItem{
+    border-bottom: 8px solid #fff;        
+    }
+    .homeContainer .ContainerItem a{
+
+        visibility: visible;
+    }
+    .homeContainer2 .details, .homeContainer2 .detailImg{
+        width: 90%;
+    }
+    
+    .homeContainer2 .detailImg img{
+        width: 100%;
+        height: 100%;
+    }
+    .homeContainer2 .col-md h3{
+        font-size: 1.5em;
+        margin-bottom: 18px;
+     }
+
+  }
