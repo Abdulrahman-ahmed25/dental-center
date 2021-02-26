@@ -8,9 +8,10 @@
 */
 body{
     line-height: 1.8;
-
+  }
+a{
+  text-decoration: none;
 }
-
 /* start upper bar */
 
 /* end upper bar */
@@ -129,12 +130,15 @@ body{
     text-align: center;
     font-size: 24px;
     padding: 2em 0;
-
-}
-.readyToAcc:hover{
+  }
+  .readyToAcc a{
+    color: #000;
+  }
+.readyToAcc:hover , .readyToAcc a:hover {
     background-color: #991b1f;
     color: #fff;
 }
+.readyToAcc
 .readyToAcc p{
     padding-bottom: 0;
     font-weight: 400;
